@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #e3e6e6;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f1111;
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-logo .logo {
+    background-image: url('img/imgg2.png');
+    height: 45px;
+    width: 100px;
+    background-size: cover;
+  }
+  
+  .nav-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-search {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-btn {
+    background-color: #febd69;
+    border: none;
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .nav-account, .nav-cart {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .sec-navbar {
+    background-color: #232f3e;
+    display: flex;
+    padding: 10px;
+    color: white;
+  }
+  
+  .sec-navbar span {
+    margin-right: 20px;
+  }
+  
+  .main-content {
+    margin: 20px;
+  }
+  
+  .hero-box {
+    background-image: url('img/bgg.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+  }
+  
+  .box-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -150px;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .box-1 {
+    height: 200px;
+    background-size: cover;
+  }
+  
+  .footer-panel {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-panel-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-panel-1 ul {
+    list-style: none;
+  }
+  
+  .footer-panel-1 h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-panel-1 a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .footer-pages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-pages a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .copyright {
+    font-size: 13px;
+  }
+  
